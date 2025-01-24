@@ -9,7 +9,7 @@ namespace PartsUnlimited.Models
     public class Category
     {
         public int CategoryId { get; set; }
-
+        //Github Change.
         [Required]
         public string Name { get; set; }
 
